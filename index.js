@@ -149,3 +149,49 @@
 //     .then(handleFulfilledA, handleRejectedA)
 //     .then(handleFulfilledB, handleRejectedB)
 //     .then(handleFulfilledC, handleRejectedC);
+
+// const animals = ['🐱', '🐶', '🦎', '🐒']
+// const color = ['🔵', '🔴', '🟢', '🟠', '🟣']
+// for (let i = 0; i < color.length; i++) {
+// 	console.log(color[i])
+// }
+// const numbers = [0, 5, 13, 24, 35, 48]
+// function number(x) {
+// 	return x % 2 === 0
+// }
+
+// console.log(numbers.filter(number))
+
+// const color2 = ['💯', '🥇', '🥈']
+// for (let i = 0; i < color2.length; i++) {
+// 	console.log(color2[i])
+// }
+
+// const names = [1, 2, 3, 4, 5]
+// // console.log(names.at(-1)) // wskazanie ostatniego indexu
+// console.log(names)
+// console.log(names.at(-1)) // wskazanie ostatniego indexu
+// names.reverse() // wskazanie ostatniego indexu
+// console.log(names)
+// console.log(names.at(-1)) // wskazanie ostatniego indexu
+// // console.log(names.at(-1)); // wskazanie ostatniego indexu
+// const shopping = ['pomidory', 'chleb', 'ser', 'jogurt']
+// console.log(shopping)
+
+// console.log(shopping.indexOf('ser'))
+// shopping.splice(2, 1) //2 - index drugi , 1 - ile wycinam
+// console.log(shopping)
+
+// const prices = [4, 10, 12, 30, 'piotr', 'Jacek']
+// // const myIndex = prices.findIndex(price => price > 11)
+// const myIndex = prices.filter(price => price > 11)
+
+// console.log(myIndex)
+
+const prices = [4, 10, 12, 30, 'piotr', 'Jacek']
+// const myIndex = prices.findIndex(price => price > 11)
+const onlyNumbers = prices.filter(price => typeof price === 'number')
+console.log(onlyNumbers)
+const increase = onlyNumbers.map(price => (price += 2))
+console.log(increase)
+// console.log(myIndex)
