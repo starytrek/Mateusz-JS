@@ -188,10 +188,42 @@
 
 // console.log(myIndex)
 
-const prices = [4, 10, 12, 30, 'piotr', 'Jacek']
-// const myIndex = prices.findIndex(price => price > 11)
-const onlyNumbers = prices.filter(price => typeof price === 'number')
-console.log(onlyNumbers)
-const increase = onlyNumbers.map(price => (price += 2))
-console.log(increase)
+// const prices = [4, 10, 12, 30, 'piotr', 'Jacek']
+// // const myIndex = prices.findIndex(price => price > 11)
+// const onlyNumbers = prices.filter(price => typeof price === 'number')
+// console.log(onlyNumbers)
+// const increase = onlyNumbers.map(price => (price += 2))
+// console.log(increase)
 // console.log(myIndex)
+
+const prices2 = [2, 2, 2, 10]
+// prices2.forEach(price => console.log((price += 2)))
+// console.log()
+
+// map używam kiedy chcę utworzyć nową talbcę ze zmienionymi cenami
+// foreach wypisuje mi wszystkie zminone ceny bez zwrócenia nowej tablicy
+
+// const sum = prices2.reduce((acu, cur) => acu + cur)
+// console.log(sum);
+
+// Napisz funkcję o nazwie Range przyjmującą dwa argumenty, start i end, i zwracającą tablicę zawierającą wszystkie
+// liczby od start do end włącznie.
+
+// const range = (start, end) => {
+// 	let arr = []
+
+// 	// for (let i = start; i <= end; i++) {
+// 	// 	arr.push(i)
+// 	// }
+// 	return arr
+// }
+
+const name = (arr) => {
+    let sum = 0 
+    for(let value of arr)
+}
+
+console.log(range(1, 9))
+
+
+
