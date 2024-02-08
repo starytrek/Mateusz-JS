@@ -196,7 +196,7 @@
 // console.log(increase)
 // console.log(myIndex)
 
-const prices2 = [2, 2, 2, 10]
+// const prices2 = [2, 2, 2, 10]
 // prices2.forEach(price => console.log((price += 2)))
 // console.log()
 
@@ -217,13 +217,12 @@ const prices2 = [2, 2, 2, 10]
 // 	// }
 // 	return arr
 // }
-
-const name = (arr) => {
-    let sum = 0 
-    for(let value of arr)
+const prices2 = [2, 2, 2, 10]
+const name = arr => {
+	let sum = 0
+	for (let value of arr) {
+		sum += value
+	}
+	return sum
 }
-
-console.log(range(1, 9))
-
-
-
+console.log(name(prices2))
